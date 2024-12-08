@@ -3,7 +3,7 @@
     <div>
         <x-logo />
         <h1>{{ config('app.name') }}</h1>
-    </div>
+        </div> 
 
     <!-- Dark Mode Toggle Button -->
     <div x-data="{ mode: localStorage.getItem('theme') || 'system' }" class="flex items-center">
